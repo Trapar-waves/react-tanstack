@@ -1,0 +1,37 @@
+{
+  "name": "@trapar-waves/react-tanstack",
+  "type": "module",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.71.1",
+    "@tanstack/react-router": "^1.114.29",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.0.0",
+    "@iconify/json": "^2.2.298",
+    "@iconify/tailwind4": "^1.0.6",
+    "@rsbuild/core": "^1.2.1",
+    "@rsbuild/plugin-react": "^1.1.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@tanstack/eslint-plugin-query": "^5.68.0",
+    "@tanstack/eslint-plugin-router": "^1.114.29",
+    "@tanstack/react-query-devtools": "^5.71.1",
+    "@tanstack/react-router-devtools": "^1.114.31",
+    "@tanstack/router-plugin": "^1.114.31",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^9.18.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.3"
+  }
+}
