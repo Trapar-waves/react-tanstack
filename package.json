@@ -17,7 +17,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.0.0",
+    "@antfu/eslint-config": "^4.11.0",
     "@iconify/json": "^2.2.298",
     "@iconify/tailwind4": "^1.0.6",
     "@rsbuild/core": "^1.2.1",
