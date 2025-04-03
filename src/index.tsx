@@ -4,6 +4,7 @@ import { RouterProvider } from "@tanstack/react-router";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { router } from "./router";
+import "./global.css"
 
 declare module "@tanstack/react-router" {
   interface Register {
