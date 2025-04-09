@@ -2,6 +2,26 @@
   "name": "@trapar-waves/react-tanstack",
   "type": "module",
   "version": "1.0.2",
+  "author": {
+    "email": "admin@rikka.cc",
+    "name": "Rikka",
+    "url": "https://github.com/Muromi-Rikka"
+  },
+  "homepage": "https://github.com/Trapar-waves/react-tanstack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trapar-waves/react-tanstack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trapar-waves/react-tanstack/issues"
+  },
+  "keywords": [
+    "react",
+    "tanstack",
+    "rsbuild",
+    "query",
+    "router"
+  ],
   "publishConfig": {
     "access": "public"
   },
