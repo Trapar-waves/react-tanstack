@@ -42,7 +42,7 @@
     "@iconify/tailwind4": "^1.0.6",
     "@rsbuild/core": "^1.3.14",
     "@rsbuild/plugin-react": "^1.3.0",
-    "@tailwindcss/postcss": "^4.1.4",
+    "@tailwindcss/postcss": "^4.1.5",
     "@tanstack/eslint-plugin-query": "^5.74.7",
     "@tanstack/eslint-plugin-router": "^1.115.0",
     "@tanstack/react-query-devtools": "^5.74.11",
@@ -51,7 +51,7 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "eslint": "^9.25.1",
-    "tailwindcss": "^4.1.4",
+    "tailwindcss": "^4.1.5",
     "typescript": "^5.8.3"
   }
 }
