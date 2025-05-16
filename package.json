@@ -21,7 +21,9 @@
     "tanstack",
     "rsbuild",
     "query",
-    "router"
+    "router",
+    "typescript",
+    "tailwindcss"
   ],
   "publishConfig": {
     "access": "public"
