@@ -5,4 +5,5 @@ export default antfu({
   javascript: true,
   yaml: true,
   stylistic: { indent: 2, quotes: "double", semi: true },
+  react: true,
 });
