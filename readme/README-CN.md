@@ -88,6 +88,6 @@ pnpm install
 
 ## 🔗 Links
 
-- **仓库:** [https://github.com/react-tanstack/Trapar-waves](https://github.com/react-tanstack/Trapar-waves)
-- **主页:** [https://github.com/react-tanstack/Trapar-waves](https://github.com/react-tanstack/Trapar-waves)
-- **问题:** [https://github.com/react-tanstack/Trapar-waves/issues](https://github.com/react-tanstack/Trapar-waves/issues)
+- **仓库:** [https://github.com/Trapar-waves/react-tanstack](https://github.com/Trapar-waves/react-tanstack)
+- **主页:** [https://github.com/Trapar-waves/react-tanstack](https://github.com/Trapar-waves/react-tanstack)
+- **问题:** [https://github.com/Trapar-waves/react-tanstack/issues](https://github.com/Trapar-waves/react-tanstack/issues)
