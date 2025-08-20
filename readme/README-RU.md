@@ -1,15 +1,15 @@
 # @trapar-waves/react-tanstack
 
-![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)
-![npm dm](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)
-![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)
-![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)
-![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
+[![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/commits/main)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)](https://github.com/Trapar-waves/react-tanstack/actions)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com)
 
 ---
 
-[English](../README.md) | [中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md)
+[English](../README.md) | [中文](./README-CN.md) | [日本語](./README-JP.md)
 
 > Готовый к производству шаблон React, оптимизированный для создания современных веб-приложений с использованием инструментов экосистемы TanStack. Этот шаблон предоставляет полную основу, включая управление состоянием, маршрутизацию, получение данных и оптимизацию сборки из коробки.
 
@@ -37,7 +37,7 @@
 - **Линтинг:** ESLint с `@antfu/eslint-config`
 - **Пакетный менеджер:** pnpm
 
-Полный список зависимостей см. в [package.json](package.json).
+Полный список зависимостей см. в [package.json](../package.json).
 
 ## 🚀 Начало работы
 
@@ -81,10 +81,16 @@ pnpm install
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
 
+Перед отправкой PR убедитесь, что ваш код соответствует стандартам кодирования проекта и проходит все тесты.
+
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 📄 Лицензия
+
+Этот проект лицензирован по лицензии MIT - см. файл [LICENSE](../LICENSE) для получения подробной информации.
 
 ## 🔗 Links
 

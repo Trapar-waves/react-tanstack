@@ -1,15 +1,15 @@
 # @trapar-waves/react-tanstack
 
-![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)
-![npm dm](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)
-![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)
-![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)
-![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
+[![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/commits/main)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)](https://github.com/Trapar-waves/react-tanstack/actions)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com)
 
 ---
 
-[English](../README.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
+[English](../README.md) | [日本語](./README-JP.md) | [Русский язык](./README-RU.md)
 
 > 一个面向生产环境的React模板，针对使用TanStack生态系统工具构建现代化Web应用进行了优化。该模板提供了完整的基础架构，包括状态管理、路由、数据获取和构建优化等开箱即用的功能。
 
@@ -37,7 +37,7 @@
 - **代码检查:** ESLint配合`@antfu/eslint-config`
 - **包管理器:** pnpm
 
-完整依赖列表参见[package.json](package.json)。
+完整依赖列表参见[package.json](../package.json)。
 
 ## 🚀 开始使用
 
@@ -71,6 +71,8 @@ yarn install
 pnpm install
 ```
 
+
+
 ## 🤝 贡献指南
 
 欢迎贡献，非常感谢您的支持！请按照以下步骤进行贡献：
@@ -81,10 +83,16 @@ pnpm install
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 打开Pull Request
 
+请确保您的代码符合项目的编码标准，并在提交PR之前通过所有测试。
+
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 📄 许可证
+
+该项目采用MIT许可证 - 有关详细信息，请参阅[LICENSE](../LICENSE)文件。
 
 ## 🔗 Links
 

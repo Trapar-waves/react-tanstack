@@ -1,15 +1,15 @@
 # @trapar-waves/react-tanstack
 
-![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)
-![npm dm](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)
-![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)
-![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)
-![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
+[![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/commits/main)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)](https://github.com/Trapar-waves/react-tanstack/actions)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com)
 
 ---
 
-[中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
+[中文](./readme/README-CN.md) | [日本語](./readme/README-JP.md) | [Русский язык](./readme/README-RU.md)
 
 > A production-ready React template optimized for building modern web applications with TanStack ecosystem tools. This template provides a complete foundation including state management, routing, data fetching, and build optimization out of the box.
 
@@ -20,7 +20,7 @@
 - **Advanced Routing:** [@tanstack/react-router](https://tanstack.com/router) for type-safe client-side navigation with nested routes support
 - **Optimized Styling:** [Tailwind CSS](https://tailwindcss.com/) for utility-first styling with minimal configuration
 - **Type Safety:** Full TypeScript integration throughout the codebase
-- **Performance Optimization:** Built-in code splitting and lazy loading;Optimized bundle size with Rsbuild
+- **Performance Optimization:** Built-in code splitting and lazy loading; Optimized bundle size with Rsbuild
 - **Developer Experience:** Fast refresh during development
 - **CI/CD Ready:** GitHub Actions workflow for automated testing and releases
 - **Internationalization:** Structure for multi-language support
@@ -37,7 +37,7 @@
 - **Linting:** ESLint with `@antfu/eslint-config`
 - **Package Manager:** pnpm
 
-See the [package.json](package.json) for a full list of dependencies.
+See the [package.json](./package.json) for a full list of dependencies.
 
 ## 🚀 Getting Started
 
@@ -71,6 +71,8 @@ yarn install
 pnpm install
 ```
 
+
+
 ## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
@@ -81,10 +83,16 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+Please ensure your code follows the project's coding standards and passes all tests before submitting a PR.
+
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## 🔗 Links
 
