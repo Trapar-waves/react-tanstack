@@ -1,15 +1,15 @@
 # @trapar-waves/react-tanstack
 
-![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)
-![npm dm](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)
-![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)
-![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)
-![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
+[![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
+[![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/commits/main)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)](https://github.com/Trapar-waves/react-tanstack/actions)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com)
 
 ---
 
-[English](../README.md) | [中文](/readme/README-CN.md) | [Русский язык](/readme/README-RU.md)
+[English](../README.md) | [中文](./README-CN.md) | [Русский язык](./README-RU.md)
 
 > TanStackエコシステムツールを使用した現代的なWebアプリケーション構築のために最適化された本番環境対応のReactテンプレートです。このテンプレートは、状態管理、ルーティング、データフェッチング、ビルド最適化などを含む完全な基盤をオールインワンで提供します。
 
@@ -37,7 +37,7 @@
 - **リンティング:** `@antfu/eslint-config`を備えたESLint
 - **パッケージマネージャー:** pnpm
 
-依存関係の完全なリストについては[package.json](package.json)を参照してください。
+依存関係の完全なリストについては[package.json](../package.json)を参照してください。
 
 ## 🚀 始め方
 
@@ -81,10 +81,16 @@ pnpm install
 4. ブランチにプッシュする（`git push origin feature/amazing-feature`）
 5. Pull Requestを開く
 
+コードがプロジェクトのコーディング標準に従い、すべてのテストに合格していることを確認してください。
+
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 📄 ライセンス
+
+このプロジェクトはMITライセンスの下でライセンスされています。詳細については[LICENSE](../LICENSE)ファイルを参照してください。
 
 ## 🔗 Links
 
