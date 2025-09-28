@@ -51,7 +51,7 @@
     "@rsbuild/core": "^1.5.12",
     "@rsbuild/plugin-react": "^1.4.1",
     "@tailwindcss/postcss": "^4.1.13",
-    "@tanstack/eslint-plugin-query": "^5.90.1",
+    "@tanstack/eslint-plugin-query": "^5.91.0",
     "@tanstack/eslint-plugin-router": "^1.132.0",
     "@tanstack/react-query-devtools": "^5.90.2",
     "@tanstack/react-router-devtools": "^1.132.17",
