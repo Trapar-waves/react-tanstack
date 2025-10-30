@@ -12,3 +12,4 @@ dist/
 !.vscode/extensions.json
 .idea
 src/routeTree.gen.ts
+.eslintcache
