@@ -1,6 +1,8 @@
+import { TanStackDevtools } from "@tanstack/react-devtools";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { ReactQueryDevtoolsPanel } from "@tanstack/react-query-devtools";
 import { RouterProvider } from "@tanstack/react-router";
+import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { router } from "./router";
@@ -20,7 +22,19 @@ if (rootEl) {
   root.render(
     <React.StrictMode>
       <QueryClientProvider client={queryClient}>
-        <ReactQueryDevtools initialIsOpen={false} />
+        <TanStackDevtools plugins={[
+          {
+            name: "TanStack Query",
+            render: <ReactQueryDevtoolsPanel />,
+            defaultOpen: true,
+          },
+          {
+            name: "TanStack Router",
+            render: <TanStackRouterDevtoolsPanel />,
+            defaultOpen: false,
+          },
+        ]}
+        />
         <RouterProvider router={router} />
       </QueryClientProvider>
     </React.StrictMode>,
