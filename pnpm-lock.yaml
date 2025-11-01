@@ -49,8 +49,8 @@ importers:
         specifier: ^1.133.19
         version: 1.133.19(eslint@9.39.0(jiti@2.6.1))(typescript@5.9.3)
       '@tanstack/react-devtools':
-        specifier: ^0.7.11
-        version: 0.7.11(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(csstype@3.1.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(solid-js@1.9.10)
+        specifier: ^0.8.0
+        version: 0.8.0(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(csstype@3.1.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(solid-js@1.9.10)
       '@tanstack/react-query-devtools':
         specifier: ^5.90.2
         version: 5.90.2(@tanstack/react-query@5.90.5(react@19.2.0))(react@19.2.0)
@@ -987,8 +987,8 @@ packages:
   '@tailwindcss/postcss@4.1.16':
     resolution: {integrity: sha512-Qn3SFGPXYQMKR/UtqS+dqvPrzEeBZHrFA92maT4zijCVggdsXnDBMsPFJo1eArX3J+O+Gi+8pV4PkqjLCNBk3A==}
 
-  '@tanstack/devtools-client@0.0.3':
-    resolution: {integrity: sha512-kl0r6N5iIL3t9gGDRAv55VRM3UIyMKVH83esRGq7xBjYsRLe/BeCIN2HqrlJkObUXQMKhy7i8ejuGOn+bDqDBw==}
+  '@tanstack/devtools-client@0.0.4':
+    resolution: {integrity: sha512-LefnH9KE9uRDEWifc3QDcooskA8ikfs41bybDTgpYQpyTUspZnaEdUdya9Hry0KYxZ8nos0S3nNbsP79KHqr6Q==}
     engines: {node: '>=18'}
 
   '@tanstack/devtools-event-bus@0.3.3':
@@ -1005,8 +1005,8 @@ packages:
     peerDependencies:
       solid-js: '>=1.9.7'
 
-  '@tanstack/devtools@0.7.0':
-    resolution: {integrity: sha512-AlAoCqJhWLg9GBEaoV1g/j+X/WA1aJSWOsekxeuZpYeS2hdVuKAjj04KQLUMJhtLfNl2s2E+TCj7ZRtWyY3U4w==}
+  '@tanstack/devtools@0.8.0':
+    resolution: {integrity: sha512-j6tBkMpAyTkiGH4ELiHzFSpV0f9fCYtAMEqTEiXEOVVfB57C36KR8LyIHtdeGzK6eQ5sKEdgLbHG9EU31L3Jng==}
     engines: {node: '>=18'}
     peerDependencies:
       solid-js: '>=1.9.7'
@@ -1031,8 +1031,8 @@ packages:
   '@tanstack/query-devtools@5.90.1':
     resolution: {integrity: sha512-GtINOPjPUH0OegJExZ70UahT9ykmAhmtNVcmtdnOZbxLwT7R5OmRztR5Ahe3/Cu7LArEmR6/588tAycuaWb1xQ==}
 
-  '@tanstack/react-devtools@0.7.11':
-    resolution: {integrity: sha512-a2Lmz8x+JoDrsU6f7uKRcyyY+k8mA/n5mb9h7XJ3Fz/y3+sPV9t7vAW1s5lyNkQyyDt6V1Oim99faLthoJSxMw==}
+  '@tanstack/react-devtools@0.8.0':
+    resolution: {integrity: sha512-0TsFICBPr68us3iWHFXCIBSEilTo8j1OdIJLW48LNQNjC/Puno82uqX4qFuaZWfZv6K37QnS6UeRxzWJItMFSA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': '>=16.8'
@@ -3702,7 +3702,7 @@ snapshots:
       postcss: 8.5.6
       tailwindcss: 4.1.16
 
-  '@tanstack/devtools-client@0.0.3':
+  '@tanstack/devtools-client@0.0.4':
     dependencies:
       '@tanstack/devtools-event-client': 0.3.4
 
@@ -3723,12 +3723,12 @@ snapshots:
     transitivePeerDependencies:
       - csstype
 
-  '@tanstack/devtools@0.7.0(csstype@3.1.3)(solid-js@1.9.10)':
+  '@tanstack/devtools@0.8.0(csstype@3.1.3)(solid-js@1.9.10)':
     dependencies:
       '@solid-primitives/event-listener': 2.4.3(solid-js@1.9.10)
       '@solid-primitives/keyboard': 1.3.3(solid-js@1.9.10)
       '@solid-primitives/resize-observer': 2.1.3(solid-js@1.9.10)
-      '@tanstack/devtools-client': 0.0.3
+      '@tanstack/devtools-client': 0.0.4
       '@tanstack/devtools-event-bus': 0.3.3
       '@tanstack/devtools-ui': 0.4.4(csstype@3.1.3)(solid-js@1.9.10)
       clsx: 2.1.1
@@ -3761,9 +3761,9 @@ snapshots:
 
   '@tanstack/query-devtools@5.90.1': {}
 
-  '@tanstack/react-devtools@0.7.11(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(csstype@3.1.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(solid-js@1.9.10)':
+  '@tanstack/react-devtools@0.8.0(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(csstype@3.1.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(solid-js@1.9.10)':
     dependencies:
-      '@tanstack/devtools': 0.7.0(csstype@3.1.3)(solid-js@1.9.10)
+      '@tanstack/devtools': 0.8.0(csstype@3.1.3)(solid-js@1.9.10)
       '@types/react': 19.2.2
       '@types/react-dom': 19.2.2(@types/react@19.2.2)
       react: 19.2.0
