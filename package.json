@@ -49,7 +49,7 @@
     "@iconify/json": "^2.2.404",
     "@iconify/tailwind4": "^1.1.0",
     "@rsbuild/core": "^1.6.2",
-    "@rsbuild/plugin-react": "^1.4.1",
+    "@rsbuild/plugin-react": "^1.4.2",
     "@tailwindcss/postcss": "^4.1.16",
     "@tanstack/eslint-plugin-query": "^5.91.2",
     "@tanstack/eslint-plugin-router": "^1.133.19",
