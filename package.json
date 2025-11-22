@@ -54,7 +54,7 @@
     "@tanstack/eslint-plugin-query": "^5.91.2",
     "@tanstack/eslint-plugin-router": "^1.133.19",
     "@tanstack/react-devtools": "^0.8.1",
-    "@tanstack/react-query-devtools": "^5.90.2",
+    "@tanstack/react-query-devtools": "^5.91.0",
     "@tanstack/react-router-devtools": "^1.136.18",
     "@tanstack/router-plugin": "^1.136.18",
     "@types/react": "^19.2.6",
