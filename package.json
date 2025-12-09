@@ -53,7 +53,7 @@
     "@tailwindcss/postcss": "^4.1.17",
     "@tanstack/eslint-plugin-query": "^5.91.2",
     "@tanstack/eslint-plugin-router": "^1.140.0",
-    "@tanstack/react-devtools": "^0.8.2",
+    "@tanstack/react-devtools": "^0.8.4",
     "@tanstack/react-query-devtools": "^5.91.1",
     "@tanstack/react-router-devtools": "^1.140.0",
     "@tanstack/router-plugin": "^1.140.0",
