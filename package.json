@@ -40,8 +40,8 @@
   "dependencies": {
     "@tanstack/react-query": "^5.90.12",
     "@tanstack/react-router": "^1.140.5",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.6.1",
