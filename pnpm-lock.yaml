@@ -49,8 +49,8 @@ importers:
         specifier: ^1.155.0
         version: 1.155.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
       '@tanstack/react-devtools':
-        specifier: ^0.9.5
-        version: 0.9.5(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(csstype@3.2.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(solid-js@1.9.10)
+        specifier: ^0.9.6
+        version: 0.9.6(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(csstype@3.2.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(solid-js@1.9.10)
       '@tanstack/react-query-devtools':
         specifier: ^5.91.3
         version: 5.91.3(@tanstack/react-query@5.90.21(react@19.2.4))(react@19.2.4)
@@ -981,8 +981,8 @@ packages:
     peerDependencies:
       solid-js: '>=1.9.7'
 
-  '@tanstack/devtools@0.10.6':
-    resolution: {integrity: sha512-STB3pS49gPoe7UHgDshOMkWPXPZmezsQBLkCrh6l+mcsRs+/Jk1OvfVF8HspiMA1RTuNRkTeGXZDA8LoGWmxyQ==}
+  '@tanstack/devtools@0.10.7':
+    resolution: {integrity: sha512-ScwnFjJTMRUd6miQax7sEhq9winalQIVhm0MTX3YfjoGjMzB/jzjzYlLOraen8hcxMHH9CifTjio8ZVdqSRBRg==}
     engines: {node: '>=18'}
     peerDependencies:
       solid-js: '>=1.9.7'
@@ -1011,8 +1011,8 @@ packages:
   '@tanstack/query-devtools@5.93.0':
     resolution: {integrity: sha512-+kpsx1NQnOFTZsw6HAFCW3HkKg0+2cepGtAWXjiiSOJJ1CtQpt72EE2nyZb+AjAbLRPoeRmPJ8MtQd8r8gsPdg==}
 
-  '@tanstack/react-devtools@0.9.5':
-    resolution: {integrity: sha512-/YsSSobbWfSZ0khLZ5n4cz/isa8Ac21PAVdgrX0qOEkPkS6J63JTEgFR0Ch2n2ka511dm2pIEuTvCsL7WVu1XQ==}
+  '@tanstack/react-devtools@0.9.6':
+    resolution: {integrity: sha512-4wnhqQ1o5PnmEDV8L3yLWaE2ZWD2xjdUw1X8Uv5NK9Ekrz/Qr6iuYl+X4Kq9+Ix2luVGMqd3toFvEwkr3uMFBw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': '>=16.8'
@@ -3665,7 +3665,7 @@ snapshots:
     transitivePeerDependencies:
       - csstype
 
-  '@tanstack/devtools@0.10.6(csstype@3.2.3)(solid-js@1.9.10)':
+  '@tanstack/devtools@0.10.7(csstype@3.2.3)(solid-js@1.9.10)':
     dependencies:
       '@solid-primitives/event-listener': 2.4.3(solid-js@1.9.10)
       '@solid-primitives/keyboard': 1.3.3(solid-js@1.9.10)
@@ -3704,9 +3704,9 @@ snapshots:
 
   '@tanstack/query-devtools@5.93.0': {}
 
-  '@tanstack/react-devtools@0.9.5(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(csstype@3.2.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(solid-js@1.9.10)':
+  '@tanstack/react-devtools@0.9.6(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(csstype@3.2.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(solid-js@1.9.10)':
     dependencies:
-      '@tanstack/devtools': 0.10.6(csstype@3.2.3)(solid-js@1.9.10)
+      '@tanstack/devtools': 0.10.7(csstype@3.2.3)(solid-js@1.9.10)
       '@types/react': 19.2.14
       '@types/react-dom': 19.2.3(@types/react@19.2.14)
       react: 19.2.4
