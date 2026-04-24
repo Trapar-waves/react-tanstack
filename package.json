@@ -48,7 +48,7 @@
     "@eslint-react/eslint-plugin": "^4.2.3",
     "@iconify/json": "^2.2.465",
     "@iconify/tailwind4": "^1.2.3",
-    "@rsbuild/core": "^2.0.0",
+    "@rsbuild/core": "^2.0.1",
     "@rsbuild/plugin-react": "^2.0.0",
     "@tailwindcss/postcss": "^4.2.4",
     "@tanstack/eslint-plugin-query": "^5.100.1",
