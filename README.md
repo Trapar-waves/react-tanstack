@@ -71,8 +71,6 @@ yarn install
 pnpm install
 ```
 
-
-
 ## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
