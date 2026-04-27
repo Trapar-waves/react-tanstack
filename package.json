@@ -58,7 +58,7 @@
     "@tanstack/react-devtools": "^0.10.2",
     "@tanstack/react-query-devtools": "^5.100.1",
     "@tanstack/react-router-devtools": "^1.166.13",
-    "@tanstack/router-plugin": "^1.167.26",
+    "@tanstack/router-plugin": "^1.167.27",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "cross-env": "^10.1.0",
