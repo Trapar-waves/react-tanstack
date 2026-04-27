@@ -18,7 +18,7 @@ const techStack: TechItem[] = [
   { id: "tanstack", label: "TanStack Query / Router", hint: "服务端状态与类型安全路由；图标见 Simple Icons", iconClass: "icon-[simple-icons--tanstack]" },
   { id: "ts", label: "TypeScript", hint: "全栈类型约束", iconClass: "icon-[logos--typescript-icon]" },
   { id: "tailwind", label: "Tailwind CSS 4", hint: "工具类样式", iconClass: "icon-[logos--tailwindcss-icon]" },
-  { id: "rsbuild", label: "Rsbuild", hint: "@rsbuild/core · @rsbuild/plugin-react", iconClass: "icon-[logos--webpack]" },
+  { id: "rsbuild", label: "Rsbuild", hint: "@rsbuild/core · @rsbuild/plugin-react", iconClass: "icon-[material-icon-theme--rstack]" },
   { id: "eslint", label: "ESLint", hint: "@antfu/eslint-config", iconClass: "icon-[logos--eslint]" },
   { id: "iconify", label: "Iconify", hint: "@iconify/json · @iconify/tailwind4（含 logos）", iconClass: "icon-[logos--npm-icon]" },
   { id: "pnpm", label: "pnpm", hint: "包管理与 CI", iconClass: "icon-[logos--pnpm]" },
