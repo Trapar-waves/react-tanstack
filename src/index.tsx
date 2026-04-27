@@ -22,19 +22,24 @@ if (rootEl) {
   root.render(
     <React.StrictMode>
       <QueryClientProvider client={queryClient}>
-        <TanStackDevtools plugins={[
-          {
-            name: "TanStack Query",
-            render: <ReactQueryDevtoolsPanel />,
-            defaultOpen: true,
-          },
-          {
-            name: "TanStack Router",
-            render: <TanStackRouterDevtoolsPanel />,
-            defaultOpen: false,
-          },
-        ]}
-        />
+        {import.meta.env.DEV
+          ? (
+              <TanStackDevtools
+                plugins={[
+                  {
+                    name: "TanStack Query",
+                    render: <ReactQueryDevtoolsPanel />,
+                    defaultOpen: false,
+                  },
+                  {
+                    name: "TanStack Router",
+                    render: <TanStackRouterDevtoolsPanel />,
+                    defaultOpen: false,
+                  },
+                ]}
+              />
+            )
+          : null}
         <RouterProvider router={router} />
       </QueryClientProvider>
     </React.StrictMode>,
