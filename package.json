@@ -33,6 +33,7 @@
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
+    "build:rsdoctor": "cross-env RSDOCTOR=true rsbuild build",
     "preview": "rsbuild preview",
     "lint": "eslint . --cache --max-warnings=0 --no-warn-ignored",
     "postinstall": "husky"
@@ -50,6 +51,7 @@
     "@iconify/tailwind4": "^1.2.3",
     "@rsbuild/core": "^2.0.1",
     "@rsbuild/plugin-react": "^2.0.0",
+    "@rsdoctor/rspack-plugin": "^1.5.9",
     "@tailwindcss/postcss": "^4.2.4",
     "@tanstack/eslint-plugin-query": "^5.100.1",
     "@tanstack/eslint-plugin-router": "^1.161.6",
@@ -59,6 +61,7 @@
     "@tanstack/router-plugin": "^1.167.26",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "cross-env": "^10.1.0",
     "eslint": "^10.2.1",
     "eslint-plugin-format": "^2.0.1",
     "eslint-plugin-react-hooks": "^7.1.1",
