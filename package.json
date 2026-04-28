@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.100.5",
-    "@tanstack/react-router": "^1.168.24",
+    "@tanstack/react-router": "^1.168.25",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
@@ -58,7 +58,7 @@
     "@tanstack/react-devtools": "^0.10.2",
     "@tanstack/react-query-devtools": "^5.100.5",
     "@tanstack/react-router-devtools": "^1.166.13",
-    "@tanstack/router-plugin": "^1.167.27",
+    "@tanstack/router-plugin": "^1.167.28",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "cross-env": "^10.1.0",
