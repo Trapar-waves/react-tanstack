@@ -41,8 +41,8 @@
   "dependencies": {
     "@tanstack/react-query": "^5.100.14",
     "@tanstack/react-router": "^1.170.10",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
@@ -59,7 +59,7 @@
     "@tanstack/react-query-devtools": "^5.100.14",
     "@tanstack/react-router-devtools": "^1.167.0",
     "@tanstack/router-plugin": "^1.168.13",
-    "@types/react": "^19.2.15",
+    "@types/react": "^19.2.16",
     "@types/react-dom": "^19.2.3",
     "cross-env": "^10.1.0",
     "eslint": "^10.4.1",
