@@ -1,30 +1,30 @@
 # @trapar-waves/react-tanstack
 
-[![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
-[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)](https://www.npmjs.com/package/@trapar-waves/react-tanstack)
-[![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/blob/main/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)](https://github.com/Trapar-waves/react-tanstack/commits/main)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)](https://github.com/Trapar-waves/react-tanstack/actions)
-[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com)
+![npm version](https://img.shields.io/npm/v/@trapar-waves/react-tanstack)
+![npm dm](https://img.shields.io/npm/dm/@trapar-waves/react-tanstack)
+![License](https://img.shields.io/github/license/Trapar-waves/react-tanstack)
+![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-tanstack)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/react-tanstack/release.yml)
+![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
 
 ---
 
 [中文](./readme/README-CN.md) | [日本語](./readme/README-JP.md) | [Русский язык](./readme/README-RU.md)
 
-> A production-ready React template optimized for building modern web applications with TanStack ecosystem tools. This template provides a complete foundation including state management, routing, data fetching, and build optimization out of the box.
+> A production-ready React template optimized for building modern web applications with the TanStack ecosystem. Provides a complete foundation including state management, routing, data fetching, and build optimization out of the box.
 
 ## ✨ Features
 
-- **Modern React Architecture:** Built with React 19.x for component-driven development
-- **Comprehensive State Management:** Server state: [@tanstack/react-query](https://tanstack.com/query) for caching, background updates, and data synchronization
-- **Advanced Routing:** [@tanstack/react-router](https://tanstack.com/router) for type-safe client-side navigation with nested routes support
-- **Optimized Styling:** [Tailwind CSS](https://tailwindcss.com/) for utility-first styling with minimal configuration
-- **Type Safety:** Full TypeScript integration throughout the codebase
-- **Performance Optimization:** Built-in code splitting and lazy loading; Optimized bundle size with Rsbuild
-- **Developer Experience:** Fast refresh during development
-- **CI/CD Ready:** GitHub Actions workflow for automated testing and releases
-- **Internationalization:** Structure for multi-language support
-- **Production-Ready:** Optimized build process and best practices implementation
+- **Modern React Architecture:** Built with React 19.x for component-driven development.
+- **Comprehensive State Management:** Server state via [@tanstack/react-query](https://tanstack.com/query) for caching, background updates, and data synchronization.
+- **Advanced Routing:** [@tanstack/react-router](https://tanstack.com/router) for type-safe client-side navigation with nested route support.
+- **Optimized Styling:** [Tailwind CSS](https://tailwindcss.com/) for utility-first styling with minimal configuration.
+- **Type Safety:** Full TypeScript integration throughout the codebase.
+- **Performance Optimization:** Built-in code splitting and lazy loading; optimized bundle size with Rsbuild.
+- **Developer Experience:** Fast refresh during development.
+- **CI/CD Ready:** GitHub Actions workflow for automated testing and releases.
+- **Internationalization:** Structure for multi-language support.
+- **Production-Ready:** Optimized build process and best practices implementation.
 
 ## GitHub Pages
 
@@ -55,34 +55,47 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ## 🚀 Getting Started
 
-Follow these instructions to get the project running locally.
-
 ### Prerequisites
-
-Ensure you have the following installed:
 
 - Node.js (>= 18.x recommended)
 - Package manager (npm, yarn, or pnpm)
 
-```bash
-node -v
-npm -v
-```
-
 ### Installation
 
-Run script
+1. Create a new project using the template:
 
-```bash
-pnpm create trapar-waves
+   ```bash
+   pnpm create trapar-waves
+   ```
+
+2. Navigate to your project directory and install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 Project Structure
+
 ```
-
-Install dependencies
-
-```bash
-npm install
-yarn install
-pnpm install
+├── public/             # Static assets
+├── src/                # Source code
+│   ├── routes/         # File-based route definitions
+│   │   └── __root.tsx  # Root layout component
+│   ├── global.css      # Global styles and Tailwind imports
+│   ├── index.tsx       # Entry point
+│   ├── router.ts       # Router configuration
+│   ├── routeTree.gen.ts # Auto-generated route tree
+│   └── env.d.ts        # Environment type declarations
+├── rsbuild.config.ts   # Rsbuild configuration
+├── tsconfig.json       # TypeScript configuration
+├── eslint.config.js    # ESLint configuration
+└── package.json        # Project dependencies and scripts
 ```
 
 ## 🤝 Contributing
@@ -95,19 +108,16 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Please ensure your code follows the project's coding standards and passes all tests before submitting a PR.
+## 📄 License
+
+MIT License © 2025 Trapar Waves
 
 ## 👤 Author
 
 - **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
 ## 🔗 Links
 
 - **Repository:** [https://github.com/Trapar-waves/react-tanstack](https://github.com/Trapar-waves/react-tanstack)
-- **Homepage:** [https://github.com/Trapar-waves/react-tanstack](https://github.com/Trapar-waves/react-tanstack)
 - **Issues:** [https://github.com/Trapar-waves/react-tanstack/issues](https://github.com/Trapar-waves/react-tanstack/issues)
