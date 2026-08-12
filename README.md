@@ -13,6 +13,10 @@
 
 > A production-ready React template optimized for building modern web applications with the TanStack ecosystem. Provides a complete foundation including state management, routing, data fetching, and build optimization out of the box.
 
+![react-tanstack hero](assets/readme/hero.svg)
+
+![Features](assets/readme/headers/features.svg)
+
 ## ✨ Features
 
 - **Modern React Architecture:** Built with React 19.x for component-driven development.
@@ -26,19 +30,7 @@
 - **Internationalization:** Structure for multi-language support.
 - **Production-Ready:** Optimized build process and best practices implementation.
 
-## GitHub Pages
-
-Pushing a version tag matching `v*` runs [`.github/workflows/pages.yml`](./.github/workflows/pages.yml), which builds with `BASE_PATH=/<repository-name>/`, copies `dist/index.html` to `dist/404.html` for SPA routing, and deploys to GitHub Pages. In the repository **Settings → Pages**, set **Source** to **GitHub Actions** once.
-
-```bash
-BASE_PATH=/react-tanstack/ pnpm run build && pnpm preview
-```
-
-PowerShell:
-
-```powershell
-$env:BASE_PATH="/react-tanstack/"; pnpm run build; pnpm preview
-```
+![Tech Stack](assets/readme/headers/tech-stack.svg)
 
 ## 💻 Tech Stack
 
@@ -52,6 +44,8 @@ $env:BASE_PATH="/react-tanstack/"; pnpm run build; pnpm preview
 - **Package Manager:** pnpm
 
 See the [package.json](./package.json) for a full list of dependencies.
+
+![Getting Started](assets/readme/headers/getting-started.svg)
 
 ## 🚀 Getting Started
 
@@ -80,6 +74,8 @@ See the [package.json](./package.json) for a full list of dependencies.
    pnpm dev
    ```
 
+![Project Structure](assets/readme/headers/project-structure.svg)
+
 ## 📁 Project Structure
 
 ```
@@ -98,6 +94,8 @@ See the [package.json](./package.json) for a full list of dependencies.
 └── package.json        # Project dependencies and scripts
 ```
 
+![Contributing](assets/readme/headers/contributing.svg)
+
 ## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
@@ -107,6 +105,8 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+![License](assets/readme/headers/license.svg)
 
 ## 📄 License
 

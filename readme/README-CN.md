@@ -13,6 +13,10 @@
 
 > 一个面向生产环境的 React 模板，针对使用 TanStack 生态系统工具构建现代化 Web 应用进行了优化。提供完整的基础架构，包括状态管理、路由、数据获取和构建优化等开箱即用的功能。
 
+![react-tanstack hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特性
 
 - **现代 React 架构：** 基于 React 19.x 构建，支持组件驱动开发。
@@ -26,6 +30,8 @@
 - **国际化：** 多语言支持架构。
 - **生产就绪：** 优化的构建流程和最佳实践实现。
 
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
+
 ## 💻 技术栈
 
 - **框架：** React 19.x
@@ -38,6 +44,8 @@
 - **包管理器：** pnpm
 
 完整依赖列表参见 [package.json](../package.json)。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 快速开始
 
@@ -66,6 +74,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 项目结构
 
 ```
@@ -84,6 +94,8 @@
 └── package.json        # 项目依赖和脚本
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 贡献
 
 欢迎贡献，非常感谢！请按照以下步骤贡献：
@@ -93,6 +105,8 @@
 3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 创建 Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 许可证
 

@@ -13,6 +13,10 @@
 
 > Готовый к производству шаблон React, оптимизированный для создания современных веб-приложений с использованием экосистемы TanStack. Предоставляет полную основу, включая управление состоянием, маршрутизацию, получение данных и оптимизацию сборки из коробки.
 
+![react-tanstack hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ Особенности
 
 - **Современная архитектура React:** Построен на React 19.x для компонентно-ориентированной разработки.
@@ -26,6 +30,8 @@
 - **Интернационализация:** Структура для поддержки нескольких языков.
 - **Готовность к производству:** Оптимизированный процесс сборки и реализация лучших практик.
 
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
+
 ## 💻 Технологический стек
 
 - **Фреймворк:** React 19.x
@@ -38,6 +44,8 @@
 - **Пакетный менеджер:** pnpm
 
 Полный список зависимостей смотрите в [package.json](../package.json).
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 Начало работы
 
@@ -66,6 +74,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 Структура проекта
 
 ```
@@ -84,6 +94,8 @@
 └── package.json        # Зависимости и скрипты проекта
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 Участие в разработке
 
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
@@ -93,6 +105,8 @@
 3. Зафиксируйте изменения (`git commit -m 'Add some amazing feature'`)
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 Лицензия
 
