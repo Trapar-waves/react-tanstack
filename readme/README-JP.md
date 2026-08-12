@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特徴
-
 - **モダン React アーキテクチャ：** React 19.x を使用したコンポーネント駆動開発。
 - **包括的な状態管理：** [@tanstack/react-query](https://tanstack.com/query) によるサーバー状態管理、キャッシュ、バックグラウンド更新、データ同期。
 - **高度なルーティング：** [@tanstack/react-router](https://tanstack.com/router) による型安全なクライアントサイドナビゲーション、ネストされたルートサポート。
@@ -32,8 +30,6 @@
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
-## 💻 技術スタック
-
 - **フレームワーク：** React 19.x
 - **型システム：** TypeScript 5.x
 - **状態管理：** `@tanstack/react-query`
@@ -46,8 +42,6 @@
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 はじめに
 
 ### 前提条件
 
@@ -76,8 +70,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 プロジェクト構造
-
 ```
 ├── public/             # 静的アセット
 ├── src/                # ソースコード
@@ -96,8 +88,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 コントリビュート
-
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
 1. リポジトリをフォーク
@@ -107,8 +97,6 @@
 5. Pull Request を作成
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 ライセンス
 
 MIT License © 2025 Trapar Waves
 

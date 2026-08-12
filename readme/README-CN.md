@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特性
-
 - **现代 React 架构：** 基于 React 19.x 构建，支持组件驱动开发。
 - **全面的状态管理：** 通过 [@tanstack/react-query](https://tanstack.com/query) 实现服务端状态管理，支持缓存、后台更新和数据同步。
 - **高级路由功能：** [@tanstack/react-router](https://tanstack.com/router) 提供类型安全的客户端导航，支持嵌套路由。
@@ -32,8 +30,6 @@
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
-## 💻 技术栈
-
 - **框架：** React 19.x
 - **类型系统：** TypeScript 5.x
 - **状态管理：** `@tanstack/react-query`
@@ -46,8 +42,6 @@
 完整依赖列表参见 [package.json](../package.json)。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 快速开始
 
 ### 前置条件
 
@@ -76,8 +70,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 项目结构
-
 ```
 ├── public/             # 静态资源
 ├── src/                # 源代码
@@ -96,8 +88,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 贡献
-
 欢迎贡献，非常感谢！请按照以下步骤贡献：
 
 1. Fork 仓库
@@ -107,8 +97,6 @@
 5. 创建 Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 许可证
 
 MIT License © 2025 Trapar Waves
 

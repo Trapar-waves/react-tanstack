@@ -17,8 +17,6 @@
 
 ![Features](assets/readme/headers/features.svg)
 
-## ✨ Features
-
 - **Modern React Architecture:** Built with React 19.x for component-driven development.
 - **Comprehensive State Management:** Server state via [@tanstack/react-query](https://tanstack.com/query) for caching, background updates, and data synchronization.
 - **Advanced Routing:** [@tanstack/react-router](https://tanstack.com/router) for type-safe client-side navigation with nested route support.
@@ -32,8 +30,6 @@
 
 ![Tech Stack](assets/readme/headers/tech-stack.svg)
 
-## 💻 Tech Stack
-
 - **Framework:** React 19.x
 - **Type System:** TypeScript 5.x
 - **State Management:** `@tanstack/react-query`
@@ -46,8 +42,6 @@
 See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -76,8 +70,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Project Structure](assets/readme/headers/project-structure.svg)
 
-## 📁 Project Structure
-
 ```
 ├── public/             # Static assets
 ├── src/                # Source code
@@ -96,8 +88,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Contributing](assets/readme/headers/contributing.svg)
 
-## 🤝 Contributing
-
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
@@ -107,8 +97,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 5. Open a Pull Request
 
 ![License](assets/readme/headers/license.svg)
-
-## 📄 License
 
 MIT License © 2025 Trapar Waves
 

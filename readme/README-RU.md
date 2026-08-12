@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ Особенности
-
 - **Современная архитектура React:** Построен на React 19.x для компонентно-ориентированной разработки.
 - **Полное управление состоянием:** Управление серверным состоянием через [@tanstack/react-query](https://tanstack.com/query) с кэшированием, фоновыми обновлениями и синхронизацией данных.
 - **Расширенная маршрутизация:** [@tanstack/react-router](https://tanstack.com/router) для типобезопасной клиентской навигации с поддержкой вложенных маршрутов.
@@ -32,8 +30,6 @@
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
-## 💻 Технологический стек
-
 - **Фреймворк:** React 19.x
 - **Система типов:** TypeScript 5.x
 - **Управление состоянием:** `@tanstack/react-query`
@@ -46,8 +42,6 @@
 Полный список зависимостей смотрите в [package.json](../package.json).
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 Начало работы
 
 ### Предварительные требования
 
@@ -76,8 +70,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 Структура проекта
-
 ```
 ├── public/             # Статические ресурсы
 ├── src/                # Исходный код
@@ -96,8 +88,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 Участие в разработке
-
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
 
 1. Fork репозиторий
@@ -107,8 +97,6 @@
 5. Откройте Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 Лицензия
 
 MIT License © 2025 Trapar Waves
 
