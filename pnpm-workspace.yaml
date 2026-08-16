@@ -1,8 +1,8 @@
+minimumReleaseAge: 0
+
 shellEmulator: true
 
 trustPolicy: off
-
-minimumReleaseAge: 0
 
 onlyBuiltDependencies:
   - "@tailwindcss/oxide"
