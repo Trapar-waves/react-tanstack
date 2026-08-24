@@ -7,23 +7,23 @@ const LOGOS_SET_URL = "https://icon-sets.iconify.design/logos/";
 const SIMPLE_ICONS_TANSTACK_URL = "https://icon-sets.iconify.design/simple-icons/tanstack/";
 
 interface TechItem {
-  id: string;
-  label: string;
   hint: string;
   iconClass: string;
+  id: string;
+  label: string;
 }
 
 const techStack: TechItem[] = [
-  { id: "react", label: "React 19", hint: "组件驱动开发", iconClass: "icon-[logos--react]" },
-  { id: "tanstack", label: "TanStack Query / Router", hint: "服务端状态与类型安全路由；图标见 Simple Icons", iconClass: "icon-[simple-icons--tanstack]" },
-  { id: "ts", label: "TypeScript", hint: "全栈类型约束", iconClass: "icon-[logos--typescript-icon]" },
-  { id: "tailwind", label: "Tailwind CSS 4", hint: "工具类样式", iconClass: "icon-[logos--tailwindcss-icon]" },
-  { id: "rsbuild", label: "Rsbuild", hint: "@rsbuild/core · @rsbuild/plugin-react", iconClass: "icon-[material-icon-theme--rstack]" },
-  { id: "eslint", label: "ESLint", hint: "@antfu/eslint-config", iconClass: "icon-[logos--eslint]" },
-  { id: "iconify", label: "Iconify", hint: "@iconify/json · @iconify/tailwind4（含 logos）", iconClass: "icon-[logos--npm-icon]" },
-  { id: "pnpm", label: "pnpm", hint: "包管理与 CI", iconClass: "icon-[logos--pnpm]" },
-  { id: "node", label: "Node.js", hint: "本地开发与构建", iconClass: "icon-[logos--nodejs-icon]" },
-  { id: "github", label: "GitHub Actions", hint: "Release 与 Pages", iconClass: "icon-[logos--github-icon]" },
+  { hint: "组件驱动开发", iconClass: "icon-[logos--react]", id: "react", label: "React 19" },
+  { hint: "服务端状态与类型安全路由；图标见 Simple Icons", iconClass: "icon-[simple-icons--tanstack]", id: "tanstack", label: "TanStack Query / Router" },
+  { hint: "全栈类型约束", iconClass: "icon-[logos--typescript-icon]", id: "ts", label: "TypeScript" },
+  { hint: "工具类样式", iconClass: "icon-[logos--tailwindcss-icon]", id: "tailwind", label: "Tailwind CSS 4" },
+  { hint: "@rsbuild/core · @rsbuild/plugin-react", iconClass: "icon-[material-icon-theme--rstack]", id: "rsbuild", label: "Rsbuild" },
+  { hint: "@renton/eslint-config-react", iconClass: "icon-[logos--eslint]", id: "eslint", label: "ESLint" },
+  { hint: "@iconify/json · @iconify/tailwind4（含 logos）", iconClass: "icon-[logos--npm-icon]", id: "iconify", label: "Iconify" },
+  { hint: "包管理与 CI", iconClass: "icon-[logos--pnpm]", id: "pnpm", label: "pnpm" },
+  { hint: "本地开发与构建", iconClass: "icon-[logos--nodejs-icon]", id: "node", label: "Node.js" },
+  { hint: "Release 与 Pages", iconClass: "icon-[logos--github-icon]", id: "github", label: "GitHub Actions" },
 ];
 
 const readmeFeatures: string[] = [
@@ -45,25 +45,25 @@ export const Route = createFileRoute("/")({
 
 function HomeShowcase() {
   const q = useQuery({
-    queryKey: ["trapar-demo"],
     queryFn: async () => {
-      const res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
-      if (!res.ok) {
+      const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+      if (!response.ok) {
         throw new Error("demo fetch failed");
       }
-      return res.json() as Promise<{ title: string; completed: boolean }>;
+      return response.json() as Promise<{ completed: boolean; title: string }>;
     },
+    queryKey: ["trapar-demo"],
   });
 
   return (
     <div className="min-h-dvh bg-[#0b1021] px-6 py-14 text-slate-100">
       <a
-        href="#main"
         className="absolute left-4 top-4 z-50 -translate-y-[220%] rounded-md bg-emerald-500 px-3 py-2 text-sm font-semibold text-slate-950 transition focus:translate-y-0 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-emerald-300"
+        href="#main"
       >
         跳到主要内容
       </a>
-      <main id="main" className="mx-auto max-w-4xl">
+      <main className="mx-auto max-w-4xl" id="main">
         <p className="font-mono text-xs uppercase tracking-[0.28em] text-emerald-400/90">
           react-tanstack
         </p>
@@ -74,10 +74,10 @@ function HomeShowcase() {
           深色工程风布局；技术标识以 Iconify
           {" "}
           <a
-            href={LOGOS_SET_URL}
-            target="_blank"
-            rel="noreferrer"
             className="font-semibold text-emerald-300 underline decoration-emerald-600/60 underline-offset-2 hover:text-emerald-200"
+            href={LOGOS_SET_URL}
+            rel="noreferrer"
+            target="_blank"
           >
             logos
           </a>
@@ -85,10 +85,10 @@ function HomeShowcase() {
           为主；TanStack 使用
           {" "}
           <a
-            href={SIMPLE_ICONS_TANSTACK_URL}
-            target="_blank"
-            rel="noreferrer"
             className="font-semibold text-emerald-300 underline decoration-emerald-600/60 underline-offset-2 hover:text-emerald-200"
+            href={SIMPLE_ICONS_TANSTACK_URL}
+            rel="noreferrer"
+            target="_blank"
           >
             Simple Icons · tanstack
           </a>
@@ -96,32 +96,32 @@ function HomeShowcase() {
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href={HOMEPAGE}
             className="inline-flex min-h-11 items-center justify-center rounded-lg bg-emerald-400 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-200"
+            href={HOMEPAGE}
           >
             查看模板仓库
           </a>
           <Link
-            to="/about"
             className="inline-flex min-h-11 items-center justify-center rounded-lg border border-slate-600 px-5 py-2.5 text-sm font-medium text-slate-100 transition hover:border-emerald-500/60 hover:text-emerald-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
+            to="/about"
           >
             进入 /about 路由
           </Link>
-          <span className="icon-[logos--react] text-3xl text-sky-400" aria-hidden />
-          <span className="icon-[simple-icons--tanstack] text-3xl text-emerald-400" aria-hidden />
-          <span className="icon-[logos--tailwindcss-icon] text-3xl text-cyan-400" aria-hidden />
+          <span aria-hidden className="icon-[logos--react] text-3xl text-sky-400" />
+          <span aria-hidden className="icon-[simple-icons--tanstack] text-3xl text-emerald-400" />
+          <span aria-hidden className="icon-[logos--tailwindcss-icon] text-3xl text-cyan-400" />
         </div>
 
         <h2 className="mt-12 text-xl font-semibold text-white">技术栈一览</h2>
         <ul className="mt-4 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2 lg:grid-cols-3">
           {techStack.map(item => (
             <li
-              key={item.id}
               className="flex gap-3 rounded-xl border border-slate-800 bg-slate-900/70 p-4"
+              key={item.id}
             >
               <div
-                className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-slate-700 bg-slate-800/80"
                 aria-hidden
+                className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-slate-700 bg-slate-800/80"
               >
                 <span className={`${item.iconClass} text-2xl`} />
               </div>
@@ -142,10 +142,10 @@ function HomeShowcase() {
         <p className="mt-3 max-w-3xl text-xs italic text-slate-500">{readmeTechNote}</p>
 
         <section
-          className="mt-8 rounded-xl border border-slate-800 bg-slate-900/40 p-5"
           aria-labelledby="a11y-tech"
+          className="mt-8 rounded-xl border border-slate-800 bg-slate-900/40 p-5"
         >
-          <h2 id="a11y-tech" className="text-sm font-semibold text-emerald-200">
+          <h2 className="text-sm font-semibold text-emerald-200" id="a11y-tech">
             图标与可访问性
           </h2>
           <p className="mt-2 max-w-3xl text-xs leading-relaxed text-slate-400">
@@ -154,17 +154,17 @@ function HomeShowcase() {
             ；主按钮与次要链接满足约 44px 触控高度与可见焦点样式。
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
-            <span className="icon-[simple-icons--tanstack] text-2xl text-emerald-400" aria-hidden />
-            <span className="icon-[logos--eslint] text-2xl text-violet-400" aria-hidden />
-            <span className="icon-[logos--github-icon] text-2xl text-slate-300" aria-hidden />
+            <span aria-hidden className="icon-[simple-icons--tanstack] text-2xl text-emerald-400" />
+            <span aria-hidden className="icon-[logos--eslint] text-2xl text-violet-400" />
+            <span aria-hidden className="icon-[logos--github-icon] text-2xl text-slate-300" />
           </div>
         </section>
 
         <section
-          className="mt-10 rounded-xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm"
           aria-labelledby="query-heading"
+          className="mt-10 rounded-xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm"
         >
-          <h2 id="query-heading" className="text-lg font-medium text-white">
+          <h2 className="text-lg font-medium text-white" id="query-heading">
             TanStack Query 占位数据
           </h2>
           {q.isPending && <p className="mt-3 text-slate-400">加载中…</p>}

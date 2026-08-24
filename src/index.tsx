@@ -16,9 +16,9 @@ declare module "@tanstack/react-router" {
 
 const queryClient = new QueryClient();
 
-const rootEl = document.getElementById("root");
-if (rootEl) {
-  const root = ReactDOM.createRoot(rootEl);
+const rootElement = document.querySelector("#root");
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
   root.render(
     <React.StrictMode>
       <QueryClientProvider client={queryClient}>
@@ -27,14 +27,14 @@ if (rootEl) {
               <TanStackDevtools
                 plugins={[
                   {
+                    defaultOpen: false,
                     name: "TanStack Query",
                     render: <ReactQueryDevtoolsPanel />,
-                    defaultOpen: false,
                   },
                   {
+                    defaultOpen: false,
                     name: "TanStack Router",
                     render: <TanStackRouterDevtoolsPanel />,
-                    defaultOpen: false,
                   },
                 ]}
               />
