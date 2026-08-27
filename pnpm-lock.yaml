@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@tanstack/react-query':
-        specifier: ^5.102.5
+        specifier: ^5.102.6
         version: 5.102.7(react@19.2.8)
       '@tanstack/react-router':
         specifier: ^1.170.32
@@ -49,7 +49,7 @@ importers:
         specifier: ^0.10.12
         version: 0.10.12(@types/react-dom@19.2.5(@types/react@19.2.18))(@types/react@19.2.18)(csstype@3.2.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(solid-js@1.9.15)
       '@tanstack/react-query-devtools':
-        specifier: ^5.102.5
+        specifier: ^5.102.6
         version: 5.102.7(@tanstack/react-query@5.102.7(react@19.2.8))(react@19.2.8)
       '@tanstack/react-router-devtools':
         specifier: ^1.167.1
