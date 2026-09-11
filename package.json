@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.102.8",
-    "@tanstack/react-router": "^1.170.34",
+    "@tanstack/react-router": "^1.170.35",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
