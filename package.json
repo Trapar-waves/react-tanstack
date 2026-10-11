@@ -68,6 +68,6 @@
     "lint-staged": "^17.6.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
-    "unplugin-turbo-console": "^2.3.3"
+    "unplugin-turbo-console": "^3.0.0"
   }
 }
