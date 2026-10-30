@@ -180,7 +180,7 @@ importers:
         version: 19.3.1(react@19.3.1)
     devDependencies:
       '@iconify/json':
-        specifier: ^2.2.549
+        specifier: ^2.2.550
         version: 2.2.550
       '@iconify/tailwind4':
         specifier: ^1.2.3
