@@ -14,10 +14,4 @@ export default rentonReact({
     "@tanstack/router/create-route-property-order": "warn",
     "func-style": ["error", "declaration", { allowArrowFunctions: true }],
   },
-}, {
-  files: ["pnpm-workspace.yaml"],
-  name: "trapar/pnpm-workspace-yaml-trust-policy",
-  rules: {
-    "pnpm/yaml-enforce-settings": "off",
-  },
 });
