@@ -14,16 +14,66 @@ interface TechItem {
 }
 
 const techStack: TechItem[] = [
-  { hint: "组件驱动开发", iconClass: "icon-[logos--react]", id: "react", label: "React 19" },
-  { hint: "服务端状态与类型安全路由；图标见 Simple Icons", iconClass: "icon-[simple-icons--tanstack]", id: "tanstack", label: "TanStack Query / Router" },
-  { hint: "全栈类型约束", iconClass: "icon-[logos--typescript-icon]", id: "ts", label: "TypeScript" },
-  { hint: "工具类样式", iconClass: "icon-[logos--tailwindcss-icon]", id: "tailwind", label: "Tailwind CSS 4" },
-  { hint: "@rsbuild/core · @rsbuild/plugin-react", iconClass: "icon-[material-icon-theme--rstack]", id: "rsbuild", label: "Rsbuild" },
-  { hint: "@renton/eslint-config-react", iconClass: "icon-[logos--eslint]", id: "eslint", label: "ESLint" },
-  { hint: "@iconify/json · @iconify/tailwind4（含 logos）", iconClass: "icon-[logos--npm-icon]", id: "iconify", label: "Iconify" },
-  { hint: "包管理与 CI", iconClass: "icon-[logos--pnpm]", id: "pnpm", label: "pnpm" },
-  { hint: "本地开发与构建", iconClass: "icon-[logos--nodejs-icon]", id: "node", label: "Node.js" },
-  { hint: "Release 与 Pages", iconClass: "icon-[logos--github-icon]", id: "github", label: "GitHub Actions" },
+  {
+    hint: "组件驱动开发",
+    iconClass: "icon-[logos--react]",
+    id: "react",
+    label: "React 19",
+  },
+  {
+    hint: "服务端状态与类型安全路由；图标见 Simple Icons",
+    iconClass: "icon-[simple-icons--tanstack]",
+    id: "tanstack",
+    label: "TanStack Query / Router",
+  },
+  {
+    hint: "全栈类型约束",
+    iconClass: "icon-[logos--typescript-icon]",
+    id: "ts",
+    label: "TypeScript",
+  },
+  {
+    hint: "工具类样式",
+    iconClass: "icon-[logos--tailwindcss-icon]",
+    id: "tailwind",
+    label: "Tailwind CSS 4",
+  },
+  {
+    hint: "@rsbuild/core · @rsbuild/plugin-react",
+    iconClass: "icon-[material-icon-theme--rstack]",
+    id: "rsbuild",
+    label: "Rsbuild",
+  },
+  {
+    hint: "@renton/eslint-config-react",
+    iconClass: "icon-[logos--eslint]",
+    id: "eslint",
+    label: "ESLint",
+  },
+  {
+    hint: "@iconify/json · @iconify/tailwind4（含 logos）",
+    iconClass: "icon-[logos--npm-icon]",
+    id: "iconify",
+    label: "Iconify",
+  },
+  {
+    hint: "包管理与 CI",
+    iconClass: "icon-[logos--pnpm]",
+    id: "pnpm",
+    label: "pnpm",
+  },
+  {
+    hint: "本地开发与构建",
+    iconClass: "icon-[logos--nodejs-icon]",
+    id: "node",
+    label: "Node.js",
+  },
+  {
+    hint: "Release 与 Pages",
+    iconClass: "icon-[logos--github-icon]",
+    id: "github",
+    label: "GitHub Actions",
+  },
 ];
 
 const readmeFeatures: string[] = [

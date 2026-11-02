@@ -12,6 +12,10 @@ export default rentonReact({
   rules: {
     "@tanstack/query/exhaustive-deps": "error",
     "@tanstack/router/create-route-property-order": "warn",
-    "func-style": ["error", "declaration", { allowArrowFunctions: true }],
+    "func-style": [
+      "error",
+      "declaration",
+      { allowArrowFunctions: true },
+    ],
   },
 });

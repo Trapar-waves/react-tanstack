@@ -22,7 +22,9 @@ export function RootComponent() {
         </nav>
       </header>
       <Outlet />
-      {import.meta.env.DEV ? <TanStackRouterDevtools /> : null}
+      {import.meta.env.DEV
+        ? <TanStackRouterDevtools />
+        : null}
     </React.Fragment>
   );
 }
