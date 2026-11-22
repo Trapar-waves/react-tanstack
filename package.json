@@ -61,7 +61,7 @@
     "cross-env": "^10.1.0",
     "eslint": "^10.15.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.6.1",
+    "lint-staged": "^17.6.2",
     "tailwindcss": "^4.3.5",
     "typescript": "^6.0.3",
     "unplugin-turbo-console": "^3.0.0"
